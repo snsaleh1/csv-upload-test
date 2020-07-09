@@ -4,4 +4,10 @@ This is a simple web app that allows the user to upload a csv file and renders t
 
 ![Interface](interface.png)
 
+- After submitting the CSV file it presents as a dictionary of information
+
 ![Data-Rendering](data-rendering.png)
+
+- We edited the data.html file to present the rows of information below
+
+![Data-Rendered-Rows](rows.png)
