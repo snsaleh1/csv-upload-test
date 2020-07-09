@@ -18,7 +18,8 @@ def data():
             csvfile = csv.reader(file)
             for row in csvfile:
                 data.append(row)
-        return render_template('data.html', data=data)
+        data = pd.DataFrame(data)
+        return render_template('data.html', data=data.to_html(header=False))
 
 
 if __name__ == '__main__':
